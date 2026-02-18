@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanzc\\Documents\\community-report-app\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj": {}
+    "D:\\EJ Programming\\github\\Community_Reporting\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanzc\\Documents\\community-report-app\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj": {
+    "D:\\EJ Programming\\github\\Community_Reporting\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanzc\\Documents\\community-report-app\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj",
+        "projectUniqueName": "D:\\EJ Programming\\github\\Community_Reporting\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj",
         "projectName": "CommunityReport.Api",
-        "projectPath": "C:\\Users\\hanzc\\Documents\\community-report-app\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj",
-        "packagesPath": "C:\\Users\\hanzc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanzc\\Documents\\community-report-app\\backend\\CommunityReport.Api\\obj\\",
+        "projectPath": "D:\\EJ Programming\\github\\Community_Reporting\\backend\\CommunityReport.Api\\CommunityReport.Api.csproj",
+        "packagesPath": "C:\\Users\\EJ\\.nuget\\packages\\",
+        "outputPath": "D:\\EJ Programming\\github\\Community_Reporting\\backend\\CommunityReport.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hanzc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\EJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
