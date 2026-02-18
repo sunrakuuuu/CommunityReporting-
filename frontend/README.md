@@ -1,16 +1,83 @@
-# React + Vite
+# Community Reporting Frontend Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend prototype for a community reporting platform built with React and Vite.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app demonstrates the core user flow for reporting local issues and engaging with community posts:
+- Account registration and login
+- Browsing the report feed
+- Creating new reports
+- Viewing profiles
+- Interacting with reports through likes and comments
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 7
+- React Router 7
+- Axios
+- Tailwind CSS 4
+- Lucide React icons
 
-## Expanding the ESLint configuration
+## Prototype Scope
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Implemented in this prototype:
+- Client-side routing
+- Auth context and local auth service helpers
+- Report feed and create flow
+- Profile page
+- Comment and like API integration
+
+Not covered yet:
+- Robust production auth/security
+- End-to-end test coverage
+- Deployment pipeline and environment hardening
+
+## Project Structure
+
+```text
+frontend/
+  src/
+    components/      UI components (auth, header, comments, etc.)
+    pages/           Route-level pages (Feed, CreateReport, Profile)
+    services/        API and auth service modules
+    context/         React context providers
+```
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+### 2. Start the dev server
+
+```bash
+npm run dev
+```
+
+Default Vite URL:
+- `http://localhost:5173`
+
+### 3. Backend API
+
+The frontend is configured to call:
+- `http://localhost:5000/api`
+
+If your backend runs elsewhere, update `baseURL` in:
+- `src/services/api.js`
+
+## Scripts
+
+- `npm run dev` - start local development server
+- `npm run build` - build production assets
+- `npm run preview` - preview the production build
+- `npm run lint` - run ESLint
+
+## Status
+
+This is a working prototype intended for rapid iteration.
