@@ -146,3 +146,4 @@ C:\Users\hanzc\Documents\community-report-app\backend\CommunityReport.Api\obj\De
 C:\Users\hanzc\Documents\community-report-app\backend\CommunityReport.Api\obj\Debug\net10.0\CommunityReport.Api.pdb
 C:\Users\hanzc\Documents\community-report-app\backend\CommunityReport.Api\obj\Debug\net10.0\CommunityReport.Api.genruntimeconfig.cache
 C:\Users\hanzc\Documents\community-report-app\backend\CommunityReport.Api\obj\Debug\net10.0\ref\CommunityReport.Api.dll
+C:\Users\hanzc\Documents\community-report-app\backend\CommunityReport.Api\obj\Debug\net10.0\CommunityReport.Api.sourcelink.json
